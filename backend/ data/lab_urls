@@ -1,1 +1,8 @@
+url,label
+http://google.com,0
+http://example.com,0
+http://malicious-login-update.com/login,1
+http://secure-bank-login-update.net,1
+https://github.com,0
+https://paypal.com-security-login.xyz,1
 
