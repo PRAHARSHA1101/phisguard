@@ -1,0 +1,12 @@
+<!doctype html><html><body>
+<h2>⚠️ Blocked by PhishDetect</h2>
+<p>URL: <span id="u"></span></p>
+<p>Score: <span id="s"></span></p>
+<button onclick="go()">Proceed Anyway</button>
+<script>
+const p=new URLSearchParams(location.search);
+document.getElementById("u").textContent=p.get("u");
+document.getElementById("s").textContent=p.get("s");
+function go(){window.location.href=p.get("u");}
+</script>
+</body></html>
